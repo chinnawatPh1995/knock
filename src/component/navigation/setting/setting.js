@@ -12,7 +12,7 @@ export default class Setting extends Component {
                     Styles.iconSize,
                     {tintColor:tintColor}
                 ]}
-                source= {require('../../../img/controls.png')}
+                source = {require('../../../../img/controls.png')}
             />
         ),
     }

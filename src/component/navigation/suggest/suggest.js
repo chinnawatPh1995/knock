@@ -8,7 +8,7 @@ export default class Suggest extends Component {
         title: 'แนะนำ',
         tabBarIcon: ({tintColor}) => (
             <Image
-                source = {require('../../../img/favorites.png')}
+                source = {require('../../../../img/favorites.png')}
                 style={[
                     Styles.iconSize,
                     {tintColor:tintColor}

@@ -9,7 +9,7 @@ export default class Home extends Component {
         title: 'บันทึก',
         tabBarIcon: ({ tintColor }) => (
             <Image
-                source={require('../../../img/edit.png')}
+            source = {require('../../../../img/edit.png')}
                 style={[
                     Styles.iconSize,
                     {tintColor:tintColor}
