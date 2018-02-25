@@ -22,11 +22,6 @@ export default class Home extends Component {
         return(
             <View style={Styles.container}>
                 <Button
-                    style={{
-                        alignSelf: 'flex-end',
-                        position: 'absolute',
-                        bottom: 0
-                    }}
                     onPress={() => this.props.navigation.navigate('AddNote')}
                     title="เพิ่ม"
                 />
