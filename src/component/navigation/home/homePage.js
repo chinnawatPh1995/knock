@@ -3,11 +3,11 @@ import { Text, View, Button} from 'react-native';
 import { StackNavigator } from 'react-navigation';
 
 import Home from './home';
-import AddNote from './addNote';
+import NoteFrom from './noteFrom';
 
-const stackHome = StackNavigator({
-    home : { screen: Home },
-    AddNote : { screen: AddNote },
+const homeStackNavigator = StackNavigator({
+    Home : {screen : Home},
+    NoteFrom : {screen : NoteFrom}
 });
 
-export default stackHome;
+export default homeStackNavigator;

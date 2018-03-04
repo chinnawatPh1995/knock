@@ -7,7 +7,7 @@ import Home from './home/home';
 import Suggest from './suggest/suggest';
 import Setting from './setting/setting';
 import HomePage from './home/homePage';
-import AddNote from './home/addNote';
+import NoteFrom from './home/noteFrom';
 
 const tabNavigation = TabNavigator({
     Home:    {screen: Home},
@@ -29,8 +29,6 @@ const tabNavigation = TabNavigator({
         },
         style: {
             backgroundColor: 'rgb(255,255,255)',
-            elevation: 0,
-            shadowOpacity: 0,
         },
         indicatorStyle: {
             backgroundColor: 'rgb(255,255,255)',
@@ -38,9 +36,9 @@ const tabNavigation = TabNavigator({
     }
 });
 
-const StackOfAddNote = StackNavigator({
+const StackOfNoteFrom = StackNavigator({
     Home : {screen : tabNavigation},
-    AddNote : {screen : AddNote}
+    NoteFrom : {screen : NoteFrom}
 });
 
-export default StackOfAddNote;
+export default StackOfNoteFrom;
